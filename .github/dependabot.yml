@@ -1,0 +1,36 @@
+version: 2
+updates:
+  - package-ecosystem: 'nuget'
+    directory: 'ClrHeapAllocationsAnalyzer'
+    open-pull-requests-limit: 10
+    schedule:
+      interval: 'daily'
+    # target-branch: 'develop'
+    # assignees:
+    #   - assignee_one
+    # reviewers:
+    #   - reviewer_one
+
+  - package-ecosystem: 'nuget'
+    directory: 'ClrHeapAllocationsAnalyzer.Test'
+    open-pull-requests-limit: 10
+    schedule:
+      interval: 'daily'
+    # target-branch: 'develop'
+    # assignees:
+    #   - assignee_one
+    # reviewers:
+    #   - reviewer_one
+
+  - package-ecosystem: 'nuget'
+    directory: 'ClrHeapAllocationsAnalyzer.Vsix'
+    open-pull-requests-limit: 10
+    schedule:
+      interval: 'daily'
+    # target-branch: 'develop'
+    # assignees:
+    #   - assignee_one
+    # reviewers:
+    #   - reviewer_one
+
+# Built with ❤ by [Pipeline Foundation](https://pipeline.foundation)
